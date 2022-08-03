@@ -1,0 +1,63 @@
+{
+  "_id": "62d94288f2dfdf0001db4605",
+  "id": "62d94288f2dfdf0001db4605",
+  "name": "JWT Partner Http Policy",
+  "org_id": "62a863765e8ff000010f985c",
+  "rate": 1000,
+  "per": 60,
+  "quota_max": -1,
+  "quota_renewal_rate": -1,
+  "throttle_interval": -1,
+  "throttle_retry_limit": -1,
+  "max_query_depth": -1,
+  "access_rights": {
+    "3580530d6eed4e4852b88a75484b8dc7": {
+      "api_name": "JWT Http Bin",
+      "api_id": "3580530d6eed4e4852b88a75484b8dc7",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": [
+        {
+          "url": "/ip",
+          "methods": [
+            "GET"
+          ]
+        },
+        {
+          "url": "/anything",
+          "methods": [
+            "GET",
+            "POST",
+            "PUT",
+            "PATCH",
+            "DELETE",
+            "OPTIONS",
+            "HEAD"
+          ]
+        }
+      ],
+      "restricted_types": [],
+      "limit": null,
+      "field_access_rights": [],
+      "allowance_scope": ""
+    }
+  },
+  "hmac_enabled": false,
+  "active": true,
+  "is_inactive": false,
+  "date_created": "2022-07-21T12:11:52.637Z",
+  "tags": [
+    "partner"
+  ],
+  "key_expires_in": 0,
+  "partitions": {
+    "quota": false,
+    "rate_limit": false,
+    "complexity": false,
+    "acl": true,
+    "per_api": false
+  },
+  "last_updated": "1658405512",
+  "meta_data": {}
+}

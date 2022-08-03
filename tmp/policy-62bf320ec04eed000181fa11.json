@@ -1,0 +1,44 @@
+{
+  "_id": "62bf320ec04eed000181fa11",
+  "id": "62bf320ec04eed000181fa11",
+  "name": "HMAC Http Bin Policy",
+  "org_id": "62a863765e8ff000010f985c",
+  "rate": 1000,
+  "per": 60,
+  "quota_max": -1,
+  "quota_renewal_rate": -1,
+  "throttle_interval": -1,
+  "throttle_retry_limit": -1,
+  "max_query_depth": -1,
+  "access_rights": {
+    "da40bc5963ab49d147e0cb5ea278af9e": {
+      "api_name": "HMAC Http Bin",
+      "api_id": "da40bc5963ab49d147e0cb5ea278af9e",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": [],
+      "restricted_types": [],
+      "limit": null,
+      "field_access_rights": [],
+      "allowance_scope": ""
+    }
+  },
+  "hmac_enabled": true,
+  "active": true,
+  "is_inactive": false,
+  "date_created": "2022-07-01T17:42:38.242Z",
+  "tags": [
+    "hmac-auth"
+  ],
+  "key_expires_in": 0,
+  "partitions": {
+    "quota": true,
+    "rate_limit": true,
+    "complexity": false,
+    "acl": true,
+    "per_api": false
+  },
+  "last_updated": "1656697358",
+  "meta_data": {}
+}
